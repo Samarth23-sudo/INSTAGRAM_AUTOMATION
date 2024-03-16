@@ -15,6 +15,7 @@ const port = process.env.PORT || 4000;
 app.get('/get-info', async (req, res) => {
     try {
         // Call the get_info function
+        fetch('https://flask-heroku-server-3.onrender.com/')
         await get_info();
         res.status(200).send({ message: 'get_info function executed successfully' });
     } catch (error) {
@@ -41,7 +42,7 @@ function get_info()
             is_valid_return=-1; // Return -1 if the error indicates document not found
             console.log(is_valid_return)
         }
-        else
+        else if(data.platform == 1 || data.platform == 3)
         {
         imageUrl = data.image_url
         description = data.description
