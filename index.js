@@ -56,7 +56,7 @@ function get_info()
             height = data.height;
             addStoryToInsta();
         }
-        else if (data.platform == 5) {
+        else if (data.platform == 5 || data.platform==6) {
             imageUrl = data.image_url
             description = data.description
             width = data.width
