@@ -89,7 +89,7 @@ const postToInsta = async () => {
 
         overlay.resize(width/6.5, width/6.5);
 
-        image.composite(overlay, 0, 0, {
+        image.composite(overlay, 10, 10, {
             mode: Jimp.BLEND_SOURCE_OVER,
             opacityDest: 1,
             opacitySource: 1
@@ -128,7 +128,7 @@ const addStoryToInsta = async () => {
         
         overlay.resize(width/5, width/5);
 
-        image.composite(overlay, 0, 0, {
+        image.composite(overlay, 10, 10, {
             mode: Jimp.BLEND_SOURCE_OVER,
             opacityDest: 1,
             opacitySource: 1
@@ -195,7 +195,7 @@ const post_and_add_story = async () => {
         
         overlay.resize(width/6.5, width/6.5);
 
-        image.composite(overlay, 0, 0, {
+        image.composite(overlay, 10, 10, {
             mode: Jimp.BLEND_SOURCE_OVER,
             opacityDest: 1,
             opacitySource: 1
