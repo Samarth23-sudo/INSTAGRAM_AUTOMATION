@@ -29,8 +29,8 @@ This project is an Instagram automation bot designed to post photos and stories 
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/Samarth23-sudo/INSTAGRAM_AUTOMATION
-    cd INSTAGRAM_AUTOMATION
+    git clone https://github.com/Samarth23-sudo/Social_Media_Automation
+    cd Social_Media_Automation
     ```
 
 2. **Install Dependencies**:
